@@ -39,10 +39,10 @@ const factory = function(_) {
 	
 				_.curveVertex(x + dx, y + this.pos.y)
 	
-				xoff += 0.04
+				xoff += 0.037 //0.04
 			}
 	
-			this.yoff += 0.0014
+			this.yoff += 0.00112 //0.0014
 	
 			_.endShape()
 		}
